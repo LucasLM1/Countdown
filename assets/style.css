@@ -49,15 +49,18 @@ body{
     text-shadow: 0 0 10px var(--white);
 }
 
-.button{
+button{
     background-color: var(--white);
     color: black;
     padding: 10px;
     cursor: pointer;
     border: solid 2px var(--white);
+    width: 150px;
+    height: 50px;
+    font-size: calc(2px + 1vw);
 }
 
-.button:hover {
+button:hover {
     background-color: var(--black);
     color: var(--white);
 }
